@@ -79,6 +79,16 @@ a {
 
 
 /* Buttons */
+.button {
+    min-width: 144px;
+    min-height: 45px;
+    padding: 14px 40px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 100px;
+}
+
 .hero-button {
     display: block;
     margin: 0 auto;
@@ -101,6 +111,18 @@ a {
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--color-hover);
+}
+
+.button-accent {
+    color: #4D5AE5;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    transition-property: color, background-color;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    color: #404BBF;
 }
 
 /* Card set */
