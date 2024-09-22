@@ -1019,7 +1019,7 @@ input[type="checkbox"]:checked+.form-agreement .checkbox {
 }
 
 input[type="checkbox"]:checked+.form-agreement .checkbox .checkbox-icon {
-    fill: var(--checked-fill-color, #F4F4FD);
+    fill: #F4F4FD;
 }
 
 .form-agreement-link {
