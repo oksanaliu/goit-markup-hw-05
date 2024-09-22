@@ -1009,7 +1009,7 @@ a {
 .checkbox:checked {
     background-color: var(--checked-bg-color, #404bbf);
     border: none;
-    fill: var(--checked-fill-color, #F4F4FD);
+    fill: #F4F4FD;
 }
 
 
