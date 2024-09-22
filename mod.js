@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const modal = document.getElementById("modal");
-  const closeButton = document.getElementById("close-btn");
+  const modal = document.querySelector(".modal-bg");
+  const closeButton = document.querySelector(".close-btn");
 
   // Функція для відкриття модального вікна
   function openModal() {
@@ -25,7 +25,3 @@ document.addEventListener("DOMContentLoaded", function () {
   // Виклик функції відкриття модального вікна
   // openModal(); // Розкоментуйте, якщо потрібно відкрити модальне вікно автоматично
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> 1b76d4c0db0575926d9bef0fb12ec42918ef010b
