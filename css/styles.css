@@ -1033,9 +1033,9 @@ input[type="checkbox"]:checked+.form-agreement .checkbox .checkbox-icon {
     fill: #F4F4FD;
 } */
 
-/* .form-agreement-link {
-    color: var(--link-color, #4d5ae5);
-} */
+.form-agreement-link {
+    color: #4d5ae5;
+}
 
 .form-agreement-text {
     font-size: 14px;
