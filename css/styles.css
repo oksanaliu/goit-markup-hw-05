@@ -868,6 +868,10 @@ a {
 }
 
 .form-wrapper {
+    margin-bottom: 8px;
+}
+
+.form-wrapper-comment {
     margin-bottom: 16px;
 }
 
