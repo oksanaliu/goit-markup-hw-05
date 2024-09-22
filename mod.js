@@ -25,3 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Виклик функції відкриття модального вікна
   // openModal(); // Розкоментуйте, якщо потрібно відкрити модальне вікно автоматично
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b76d4c0db0575926d9bef0fb12ec42918ef010b
