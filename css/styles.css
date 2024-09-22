@@ -962,6 +962,11 @@ a {
 .form-agreement {
     display: block;
     margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--color, #8e8f99);
+
 }
 
 .visually-hidden {
@@ -1002,17 +1007,19 @@ a {
     fill: var(--checked-fill-color, #F4F4FD);
 }
 
-.form-agreement-link {
-    color: var(--link-color, #4d5ae5);
-}
 
-input[type="checkbox"]:checked+.checkbox {
+input[type="checkbox"]:checked+.form-agreement .checkbox {
     background-color: #404bbf;
     border: none;
 }
 
-input[type="checkbox"]:checked+.checkbox .checkbox-icon {
+input[type="checkbox"]:checked+.form-agreement .checkbox .checkbox-icon {
+
     fill: #F4F4FD;
+}
+
+.form-agreement-link {
+    color: var(--link-color, #4d5ae5);
 }
 
 .form-agreement-text {
