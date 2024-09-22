@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const modal = document.querySelector(".modal-bg");
-  const closeButton = document.querySelector(".close-btn");
+  const modal = document.getElementById("modal");
+  const closeButton = document.getElementById("close-btn");
 
   // Функція для відкриття модального вікна
   function openModal() {
-    modal.style.display = "block";
+    modal.style.display = "flex"; // Встановлюємо flex для центрованого позиціювання
   }
 
   // Функція для закриття модального вікна
