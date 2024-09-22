@@ -868,7 +868,7 @@ a {
 }
 
 .form-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-label {
@@ -979,7 +979,7 @@ a {
     margin-bottom: 24px;
 }
 
-.checkbox-box {
+.checkbox {
     display: inline-flex;
     align-items: center;
     justify-content: center;
