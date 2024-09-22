@@ -829,6 +829,7 @@ a {
 /* #region Modal*/
 
 .modal-bg {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
