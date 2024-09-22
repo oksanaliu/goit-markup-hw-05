@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Функція для відкриття модального вікна
   function openModal() {
-    modal.style.display = "flex"; // Встановлюємо flex для центрованого позиціювання
+      modal.classList.add("show"); // Додаємо клас
   }
 
   // Функція для закриття модального вікна
   function closeModal() {
-    modal.style.display = "none";
+      modal.classList.remove("show"); // Видаляємо клас
   }
 
   // Додаємо обробник подій для кнопки закриття
@@ -17,11 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Закриваємо модальне вікно при натисканні на фон
   modal.addEventListener("click", function (event) {
-    if (event.target === modal) {
-      closeModal();
-    }
+      if (event.target === modal) {
+          closeModal();
+      }
   });
-
-  // Виклик функції відкриття модального вікна
-  // openModal(); // Розкоментуйте, якщо потрібно відкрити модальне вікно автоматично
-});
